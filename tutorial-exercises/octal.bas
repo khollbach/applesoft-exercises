@@ -1,5 +1,6 @@
-10 REM this program prints decimal and corresponding hexadecimal numbers.
-15 REM it shows 20 numbers per page. To show the next page press any key.
+10 REM this program prints decimal and corresponding hexadecimal and octal
+15 REM numbers. it shows 20 numbers per page. To show the next page press any
+17 REM key.
 20 TEXT : PR#0 : REM setting 40x24 TEXT MODE
 30 LET S = 0
 40 HOME : REM CLEAR SCREEN
