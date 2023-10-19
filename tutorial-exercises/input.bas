@@ -1,8 +1,8 @@
 05 REM BASIC boolean operators AND, OR and NOT demo
 10 TEXT : HOME
 
-20 LET A = 3 
-30 LET B = 7
+20 INPUT "enter number A:";A
+30 INPUT "enter number B:";B
 
 35 REM the folowing is not true: because A is smaller than 5
 40 IF (A > 5 AND B > 5) THEN PRINT "Both A and B are greater than 5"
